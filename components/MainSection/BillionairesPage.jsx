@@ -12,7 +12,7 @@ const BillionairesPage = () => {
         <div className=" w-[454px] rounded-[10px] bg-gradient-to-r from-[#ababab26] via-[#ffffff4d] to-[#ababab26] p-[3px] mb-[64px]">
           <Link
             href="/"
-            className="bg-[#141414] pt-[3.5px] pb-[3px] pr-[12.5px] pl-[12px]  rounded-[10px] text-2xl">
+            className="bg-[#141414] pt-[3.5px] pb-[3px] pr-[12.5px] pl-[12px]  rounded-[10px] text-2xl hover:opacity-[0.8]">
             🎉 New in AI.GEN Real Time Interaction
           </Link>
         </div>
