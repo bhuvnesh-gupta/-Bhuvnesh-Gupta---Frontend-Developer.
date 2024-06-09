@@ -1,33 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  background-image: linear-gradient(
+    to right,
+    rgba(250, 117, 248, 0.28) 1%,
+    rgba(250, 117, 248, 0) 90%
+  );
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.shadow {
+  box-shadow: 0px 18.01px 36.02px 0px rgba(14, 12, 71, 0.15);
+}
+
+.shadow-page-2 {
+  box-shadow: 0px 12.74px 25.48px 0px rgba(14, 12, 71, 0.15);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #facc69 0%, #ff91a5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
