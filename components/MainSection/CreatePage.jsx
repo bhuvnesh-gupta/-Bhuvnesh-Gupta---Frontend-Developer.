@@ -7,9 +7,9 @@ const CreatePage = () => {
     <div>
       {/* Images Section */}
       <div className="relative">
-        <div className="flex justify-between   text-white ml-[177px] mr-[178px] mt-[197px]">
+        <div className="flex justify-between  text-white ml-[177px] mr-[178px] mt-[197px]">
           {/* Column 1 */}
-          <div className="flex flex-col gap-[34px] inset-0 w-full h-full object-cover opacity-50 mt-[64px]">
+          <div className="flex flex-col gap-[34px] w-full h-full object-cover opacity-90 mt-[64px]">
             <Image
               className="shadow-page-2 rounded-[15px]"
               src={"/Page2images/img1page2.png"}
@@ -193,31 +193,6 @@ const CreatePage = () => {
         </div>
       </div>
     </div>
-    // <>
-    //   <div className="relative text-center">
-    //     <Image
-    //       className="shadow-page-2"
-    //       src={"/Page2images/timcook.png"}
-    //       alt={"Tim Cook"}
-    //       width={1080}
-    //       height={720}
-    //     />
-    //     <div className="w-full absolute top-0 left-0 text-center mt-10">
-    //       <h2 className="text-4xl font-bold text-red-500 text-center">
-    //         TailwindCSS + React
-    //       </h2>
-    //       <button className="mt-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-    //         Test Button
-    //       </button>
-    //     </div>
-    //   </div>
-    //   <div className="text-center mb-10">
-    //     <h2 className="text-2xl font-bold">Text 2</h2>
-    //     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-    //       Test Button 2
-    //     </button>
-    //   </div>
-    // </>
   );
 };
 
